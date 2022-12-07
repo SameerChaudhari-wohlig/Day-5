@@ -1,0 +1,40 @@
+.img-fluid{
+    width: 90px;
+    height: 60px;
+}
+
+.btn-up{
+    background-color: #c8d3c4;
+    border: 1px solid #f4f2f2;
+    border-radius: 5px;
+    color: #8cca5d;
+    font-size: 24px;
+    width: 20%;
+    padding: 10px;
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.footer-img{
+    width: 160px;
+    height: 50px;
+}
+
+.span-green{
+    color: green;
+}
+
+.map-footer{
+    width: 330px;
+    height: 170px;
+}
+
+.fixed-navbar{
+    z-index: 1000;
+}
+
+/* .navbar{
+    margin-left: 50px;
+    margin-right: 50px;
+} */
