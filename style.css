@@ -1,40 +1,102 @@
-.img-fluid{
-    width: 90px;
-    height: 60px;
+.mainApp {
+  padding: 0 4%;
+  background-color: #f4f2f2;
 }
 
-.btn-up{
-    background-color: #c8d3c4;
-    border: 1px solid #f4f2f2;
-    border-radius: 5px;
-    color: #8cca5d;
-    font-size: 24px;
-    width: 20%;
-    padding: 10px;
-    align-items: center;
-    margin-top: 15px;
-
+.img-fluid {
+  width: 90px;
+  height: 60px;
 }
 
-.footer-img{
-    width: 160px;
-    height: 50px;
+.btn-up {
+  background-color: #c8d3c4;
+  border: 1px solid #f4f2f2;
+  border-radius: 5px;
+  color: #8cca5d;
+  font-size: 24px;
+  width: 20%;
+  padding: 10px;
+  align-items: center;
+  margin-top: 15px;
 }
 
-.span-green{
-    color: green;
+.footer-img {
+  width: 160px;
+  height: 50px;
 }
 
-.map-footer{
-    width: 330px;
-    height: 170px;
+.span-green {
+  color: green;
 }
 
-.fixed-navbar{
-    z-index: 1000;
+.map-footer {
+  width: 330px;
+  height: 170px;
 }
 
-/* .navbar{
-    margin-left: 50px;
-    margin-right: 50px;
+
+
+.about-us-container {
+  background-color: rgb(223, 224, 226);
+}
+
+.para-space {
+  letter-spacing: 0.8px;
+}
+
+.footer-copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.servicesImage {
+  width: 500px;
+}
+
+/* .img-services{
+    width: 567px;
+    height: 567px;
 } */
+
+.hoverText {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hoverText h1 {
+  position: absolute;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  color: #fff;
+  font-size: 33px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.onhover:hover{ 
+    color: #8cca5d!important;
+    display: inline-block;
+}
+
+.contactus-img{
+      width: 250px;
+      height: 75px;
+}
+.fixed-navbar{
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+    position: -webkit-sticky;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #8cca5d!important;
+}
+
