@@ -21,13 +21,13 @@
     />
   </head>
   <body>
-    <!-- Navbar starts here -->
+    <div class="mainApp">
+<!-- Navbar starts here -->
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light fs-3 fixed-top mt-0 m-5 shadow p-3 mb-5 bg-body rounded"
+      class="navbar navbar-light navbar-expand-lg bg-white mb-0 fs-3 fixed-top mx-lg-5 mx-md-4 shadow p-3 mb-5 bg-body rounded"
     >
-      <div class="container py-4">
-        <img src="My project.png" class="img-fluid" alt="" />
-        <a class="navbar-brand" href="#">PETRAUSKAS TRADING</a>
+      <div class="container py-1">
+        <img src="navbar logo.png" class="img-nav h-25 w-25" alt="" />
         <button
           class="navbar-toggler"
           type="button"
@@ -42,22 +42,31 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link  onhover" aria-current="page" href="index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="aboutus.html"
+              <a
+                class="nav-link onhover"
+                aria-current="page"
+                href="aboutus.html"
                 >About Us</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
+            <li class="nav-item ">
+              <a
+                class="nav-link active onhover"
+                aria-current="page"
+                href="services.html"
                 >Services</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contactus.html"
+              <a
+                class="nav-link onhover"
+                aria-current="page"
+                href="contactus.html"
                 >Contact Us</a
               >
             </li>
@@ -66,10 +75,11 @@
       </div>
     </nav>
 
+  
     <!-- carousel -->
     <div
       id="carouselExampleCaptions"
-      class="carousel slide mx-5"
+      class="carousel slide mx-lg-5"
       data-bs-ride="carousel"
     >
       <div class="carousel-inner">
@@ -83,9 +93,9 @@
     </div>
 
     <!-- Main Services -->
-    <div class="main-container mx-5 pb-5">
+    <div class="main-container mx-lg-5  pb-5">
       <div class="row">
-        <div class="col-12 py-5 px-5">
+        <div class="col-12 col-lg-12 col-md-12 p-lg-5 ">
           <p>
             We offer a complete start to finish design and build package
             tailored to suit your specific requirements. We will guide you
@@ -107,11 +117,11 @@
       <!-- row 1 -->
       <div class="container">
         <div class="row">
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col1.jpg" alt="" class="img-thumbnail" />
-            <h1>Loft Conversions</h1>
+            <h1 >Loft Conversions</h1>
           </div>
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col-2.jpg" alt="" class="img-thumbnail" />
              <h1>House Refurbishment</h1>
           </div>
@@ -119,11 +129,11 @@
 
         <!-- row 2 -->
         <div class="row">
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col3.jpg" alt="" class="img-thumbnail" />
              <h1>Extensions</h1>
           </div>
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col-4.jpg" alt="" class="img-thumbnail" />
              <h1>Convert House To Flats</h1>
           </div>
@@ -131,11 +141,11 @@
 
         <!-- row 3 -->
         <div class="row">
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col6.jpg" alt="" class="img-thumbnail" />
              <h1>Build A New House</h1>
           </div>
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col7.jpg" alt="" class="img-thumbnail" />
              <h1>bathroom Refurbishment</h1>
           </div>
@@ -143,11 +153,11 @@
 
         <!-- row 4 -->
         <div class="row">
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col8.jpg" alt="" class="img-thumbnail" />
              <h1>Garden makeover</h1>
           </div>
-          <div class="col-6 hoverText">
+          <div class="col-lg-6 col-md-6 col-sm-12 hoverText">
             <img src="col9.jpg" alt="" class="img-thumbnail" />
              <h1>Kitchen Refurbishment</h1>
           </div>
@@ -156,36 +166,60 @@
     </div>
 
      <!-- Footer -->
-        <div class="aboutus-container mx-5 text-light bg-dark pt-5">
-            <div class="row">
-                <div class="col-3 text-center">
-                    <h6>PETRAUSKAS TRADING LTD</h6>
-                    <img src="https://petrauskastrading.co.uk/_nuxt/img/petrauskasTradingLtdLogo.c88da7d.png" alt="img"
-                        class="footer-img">
-                </div>
-                <div class="col-3 text-center">
-                    <h6>CONTACT</h6>
-                    <i class="fa-solid fa-phone py-2"></i><span> Tel: 9619753930</span> <br>
-                    <i class="fa-solid fa-envelope py-4"></i><span class="span-green">E:
-                        Sameer.chaudhari@wohlig.com</span>
-                </div>
-                <div class="col-2 text-center">
-                    <h6>NAVIGATE</h6>
-                    <i class="fa-solid fa-user-group py-3"></i> <span> About</span> <br>
-                    <i class="fa-solid fa-phone py-3"></i> <span> Contact</span> <br>
-                    <i class="fa-solid fa-gear py-3"></i> <span> Services</span>
-                </div>
-                <div class="col-4 text-center pb-5">
-                    <h6>LOCATION</h6>
-                    <iframe class="map-footer py-2"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15083.022421979374!2d72.8869815!3d19.074479999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1670411022750!5m2!1sen!2sin"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-               <div data-v-4e56bdc0="" class="footer-copyright text-center py-3"><div data-v-35ea163e="" class="container-fluid" data-v-4e56bdc0=""></div></div>
+<!-- Footer -->
+    <div class="container text-light bg-dark pt-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-3 med-sm-1 text-center">
+          <h6>PETRAUSKAS TRADING LTD</h6>
+          <img
+            src="https://petrauskastrading.co.uk/_nuxt/img/petrauskasTradingLtdLogo.c88da7d.png"
+            alt="img"
+            class="footer-img"
+          />
         </div>
+        <div class="col-12 col-sm-12 col-md-3 med-sm-2 text-center">
+          <h6>CONTACT</h6>
+          <i class="fa-solid fa-phone py-lg-2"></i
+          ><span> Tel: 9619753930</span> <br />
+          <div class="elip">
+            <i class="fa-solid fa-envelope py-lg-4"></i
+            ><span class="span-green">E: Sameer.chaudhari@wohlig.com</span>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 med-sm-3 text-center">
+          <h6>NAVIGATE</h6>
+          <a href="aboutus.html"><i class="fa-solid fa-user-group py-lg-3"></i> <span> About</span></a>
+          <br />
+          <a href="contactus.html">  <i class="fa-solid fa-phone py-3"></i> <span> Contact</span></a>
+         <br />
+         <a href="services.html"> <i class="fa-solid fa-gear py-3"></i> <span> Services</span></a>
+         
+        </div>
+        <div class="col-12 col-sm-12 col-md-3 text-center pb-5">
+          <h6>LOCATION</h6>
+          <iframe
+            class="map-footer py-2 elip-med"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15083.022421979374!2d72.8869815!3d19.074479999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1670411022750!5m2!1sen!2sin"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div data-v-4e56bdc0="" class="footer-copyright text-center py-3">
+        <div
+          data-v-35ea163e=""
+          class="container-fluid"
+          data-v-4e56bdc0=""
+        ></div>
+      </div>
+    </div>
 
+      
+</div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
