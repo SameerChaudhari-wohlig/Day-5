@@ -16,6 +16,11 @@ body{
   background-color: #ffffff;
 }
 
+.bk-id{
+    background-color: rgb(255, 255, 255);
+    margin-top: -47px;
+}
+
 .cont-serv{
   background-color: rgb(255, 255, 255);
 }
