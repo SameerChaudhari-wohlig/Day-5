@@ -108,7 +108,7 @@ body{
   height: 150px;
 } */
 
-.contact-main{
+.Contact-main{
    background-color: rgb(255, 255, 255);
 }
 
@@ -188,6 +188,14 @@ body{
   }
 
 }
+
+
+@media only screen and (min-width: 1071px) {
+  .d-block{
+    margin-top: 120px;
+  }
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .hoverText h1{
