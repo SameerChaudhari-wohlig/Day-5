@@ -241,22 +241,30 @@ rgb(137,202,93);
       .img-nav{
         margin-left: -30px;
       }
+       .navbar>.container{
+    margin-right: 40px;
+   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1330px){
+@media only screen and (min-width: 1200px) and (max-width: 1150px){
     
    .navbar>.container{
     margin-right: 40px;
    }
 }
 
+@media only screen and (min-width: 1024px) and (max-width:1100px) { 
+     .bk-id{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
 
 
 
 
 
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .hoverText h1{
     font-size: 25px;
     overflow-wrap: break-word;
