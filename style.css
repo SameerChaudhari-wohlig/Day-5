@@ -1,12 +1,13 @@
-
 .mainApp {
   padding: 0.4%;
   background-color: rgb(244, 242, 242);
   overflow-x: hidden;
 }
-body{
-    background-color: rgb(244, 242, 242);
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+body {
+  background-color: rgb(244, 242, 242);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .clr-nav {
@@ -18,69 +19,82 @@ body{
   cursor: pointer;
 }
 
-.bk-id{
-    background-color: rgb(255, 255, 255);
-    margin-top: -47px;
-    padding: 30px 40px;
-    margin-right: 100px;
-    margin-left: 80px;
+.bk-id {
+  background-color: rgb(255, 255, 255);
+  margin-top: -47px;
+  padding: 30px 40px;
+  margin-right: 100px;
+  margin-left: 80px;
 }
-.para-home{
-      color: #777877;
-    padding-top: 3%;
-        font-weight: 500;
-    line-height: 1.8em;
-    padding-bottom: 1rem;
-}
-
-.card-body{
-    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+.para-home {
+  color: #777877;
+  padding-top: 3%;
+  font-weight: 500;
+  line-height: 1.8em;
+  padding-bottom: 1rem;
 }
 
-.cont-serv{
+.card-body {
+  -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
+    0 2px 10px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.cont-serv {
   background-color: rgb(255, 255, 255);
 }
 
-.text-size{
-     font-size: 25px;
-     /* border-color: #e9ecef #e9ecef #dee2e6 !important; */
-     /* isolation: isolate !important; */
-     /* font-weight: ; */
-     /* padding: 1px;
+.text-size {
+  font-size: 25px;
+  /* border-color: #e9ecef #e9ecef #dee2e6 !important; */
+  /* isolation: isolate !important; */
+  /* font-weight: ; */
+  /* padding: 1px;
      padding-right: 0.5rem;
      padding-left: 0.5rem; */
-    /* transition: all 500ms ease */
+  /* transition: all 500ms ease */
 }
 
-
-.text-size:hover{
-     border: 0.3px solid rgb(239, 239, 239) !important;
-    isolation: isolate !important;
+.text-size-home{
+  font-size: 25px;
 }
 
-
-
-.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+.text-size-about{
+  font-size: 25px;
 }
 
-.bck-clr{
+.text-size-service{
+  font-size: 25px;
+}
+
+.text-size-contact{
+  font-size: 25px;
+}
+
+.text-size:hover {
+  border: 0.3px solid rgb(239, 239, 239) !important;
+  isolation: isolate !important;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+    font-size: 25px;
+}
+
+.bck-clr {
   background-color: rgb(51, 51, 51);
 }
 
-.bk-clr a{
+.bk-clr a {
   color: white;
   text-decoration: none;
 }
 
 .bk-clr a:hover {
   text-decoration: underline;
-  color: #8cca5d!important;;
+  color: #8cca5d !important;
 }
-
-
 
 .img-fluid {
   width: 90px;
@@ -99,11 +113,9 @@ body{
   margin-top: 15px;
 }
 
-
-.btn-up:hover{
+.btn-up:hover {
   color: rgb(213, 182, 124);
 }
-
 
 .footer-img {
   width: 160px;
@@ -112,13 +124,12 @@ body{
 }
 
 .span-green {
-  color: 
-rgb(137,202,93);
+  color: rgb(137, 202, 93);
 }
 
 .map-footer {
   width: 340px;
-  height: 190px;  
+  height: 190px;
 }
 
 .elip {
@@ -132,26 +143,20 @@ rgb(137,202,93);
   height: 150px;
 } */
 
-.Contact-main{
-   background-color: rgb(255, 255, 255);
+.Contact-main {
+  background-color: rgb(255, 255, 255);
 }
 
 .about-us-container {
   background-color: rgb(223, 224, 226);
 }
-.about-us-containe{
-  background-color: rgb(232, 233, 235);
-}
-
-.para-space {
+#f4f2f2 .para-space {
   letter-spacing: 0.8px;
-
 }
-.txt-clr{
-    color: #77787e;
+.txt-clr {
+  color: #77787e;
   line-height: 30px;
 }
-
 
 .footer-copyright {
   background-color: rgba(0, 0, 0, 0.2);
@@ -219,75 +224,65 @@ rgb(137,202,93);
     margin-left: -250px;
   }
 
-  .hoverText t1{
+  .hoverText t1 {
     font-size: 10px;
   }
-
 }
-
 
 @media only screen and (min-width: 1071px) {
-  .d-block{
+  .d-block {
     margin-top: 120px;
   }
-.img-nav{
-  margin-left: -60px;
+  .img-nav {
+    margin-left: -60px;
+  }
+
+  .ul-lag {
+    margin-right: -45px;
+  }
 }
 
-.ul-lag{
-  margin-right: -45px;
-}
-
-}
-
-@media only screen and (min-width: 1069px) and (max-width: 1499px){
-      .img-nav{
-        margin-left: -20px;
-      }
-       .navbar>.container{
+@media only screen and (min-width: 1069px) and (max-width: 1499px) {
+  .img-nav {
+    margin-left: -20px;
+  }
+  .navbar > .container {
     margin-right: 40px;
-   }
+  }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1150px){
-    
-   .navbar>.container{
+@media only screen and (min-width: 1200px) and (max-width: 1150px) {
+  .navbar > .container {
     margin-right: 40px;
-   }
+  }
 }
 
-@media only screen and (min-width: 1024px) and (max-width:1100px) { 
-     .bk-id{
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .bk-id {
     margin-left: 50px;
     margin-right: 50px;
   }
 }
 
-
-
-
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .hoverText h1{
+  .hoverText h1 {
     font-size: 25px;
     overflow-wrap: break-word;
   }
 
-  .cont-med{
+  .cont-med {
     font-size: 29px;
   }
 
-  .map-footer{
+  .map-footer {
     width: 155px;
     height: 350px;
   }
-   
-  .bk-id{
+
+  .bk-id {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -303,53 +298,49 @@ rgb(137,202,93);
     padding-bottom: 20px;
   }
 
-  .about-med{
+  .about-med {
     text-align: center;
     margin-top: 20px;
   }
-  
-  .about-med-1{
+
+  .about-med-1 {
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 30px;
   }
-  
 
-
-  .hoverText h1{
+  .hoverText h1 {
     font-size: 27px;
   }
-  
-  .carousel{
-    margin-top: 75px;
-     margin-left: 15px;
-    margin-right: 15px;
-  }
 
-  .navbar{
+  .carousel {
+    margin-top: 75px;
     margin-left: 15px;
     margin-right: 15px;
   }
- 
-  .footer-container{
-       margin-left: 15px;
+
+  .navbar {
+    margin-left: 15px;
     margin-right: 15px;
   }
 
-  .sev-p{
+  .footer-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .sev-p {
     margin-left: 20px;
     margin-right: 20px;
   }
 
-  .sev-ft{
+  .sev-ft {
     margin-left: 20px;
     margin-right: 20px;
   }
- 
-   .bk-id{
+
+  .bk-id {
     margin-left: 18px;
     margin-right: 18px;
-   }
-   
-
+  }
 }
