@@ -237,6 +237,23 @@ rgb(137,202,93);
 
 }
 
+@media only screen and (min-width: 1069px) and (max-width: 1499px){
+      .img-nav{
+        margin-left: -30px;
+      }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1330px){
+    
+   .navbar>.container{
+    margin-right: 40px;
+   }
+}
+
+
+
+
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
